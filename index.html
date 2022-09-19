@@ -9,29 +9,24 @@
   <body>
     <div id="app">
       <!-- TODO: Buatlah sebuah header dengan id todo-title -->
-      <header id="todo-title"> To-Do-List</header>
+      <h2 id="todo-title"> To-Do-List</h2>
       <!-- TODO: Buatlah sebuah subtitle dengan id todo-subtitle -->
-    <div id="todo-subtitle"> ~ Today Ineed To ~</div>
+      <p id="todo-subtitle"> ~ Today Ineed To ~</p>
 
-      <!-- Section: input -->
-      <input id="todo-input" type="text">
-      <button id="todo-submit" class="button"> submit</button>
+      <!-- Section: input - ->
       <!-- TODO: Buatlah sebuah input bertipe text dengan id todo-input -->
+      <input id="todo-input" type="text"/> 
       <!-- TODO: Buatlah sebuah button dengan id todo-submit -->
+      <button id="todo-submit" class="button"> submit</button>
 
       <!-- Section output -->
-      <ul id="todo-output"> </ul>
       <!-- TODO: Buatlah sebuah <ul> dengan id todo-output -->
+      <ul id="todo-output"> </ul>
     </div>
 
     <!-- ! Untuk tantangan ini, script jangan diubah ke external js yah ! -->
     <script>
       // TODO: Deklarasi variable sesuai dengan kebutuhan di sini
-      
-      // TODO: Buatlah sebuah fungsi dengan nama fnClickHandler
-      // Fungsi yang digunakan untuk menambahkan tulisan
-      // Jangan ubah cara deklarasi fungsinya, cukup isi saja
-
         let button = document.querySelector("#todo-submit");
         let input = document.querySelector("#todo-input");
         let output = document.querySelector("#todo-output");
@@ -73,14 +68,14 @@
     body{
       background-color: bisque;
     }
-    #todo-title{
+    h2{
     text-align: center;
     margin-bottom: 10px;
     background-color: aqua;
     width: 100px;
     margin-left: 30%;
     }
-    #todo-subtitle{
+    p{
     text-align: center;
     margin-bottom: 30px;
     }
